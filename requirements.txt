@@ -1,0 +1,28 @@
+# requirements.txt
+# Important:
+# This project is a JavaScript/React frontend, not a Python project.
+# So this file is being used as a dependency/version reference file,
+# not as a pip-installable Python requirements list.
+
+# Dependencies confirmed or strongly inferred from the uploaded files
+
+react==18.3.1
+react-dom==18.3.1
+framer-motion==VERSION_NOT_RECOVERABLE_FROM_UPLOADED_FILES
+lucide-react==VERSION_NOT_RECOVERABLE_FROM_UPLOADED_FILES
+
+# Local / project-specific imports seen in source
+# These are not npm package names by themselves unless backed by your repo structure:
+# @/components/ui/card
+# @/components/ui/button
+# @/components/ui/input
+# @/components/ui/badge
+# @/components/ui/scroll-area
+
+# Build/runtime notes
+# - index.html points to a compiled JS asset and CSS asset
+# - The build output shape looks like a Vite-style frontend build
+# - No package.json was uploaded, so exact versions for all packages cannot be verified from the upload alone
+
+# Strong recommendation
+# Create a package.json with exact versions before treating this as a full source repo.
